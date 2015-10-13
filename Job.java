@@ -1,5 +1,10 @@
+/**
+ * 
+ * @author Kate Mawbey
+ * @version 13.10.2015
+ */
 public class Job implements Runnable { 
-  private in jobNumber;
+  private int jobNumber;
     
   Job (int jobNumber) {
         this.jobNumber = jobNumber; 
